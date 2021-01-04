@@ -1,0 +1,27 @@
+{
+  "name": "siterpg",
+  "version": "1.0.0",
+  "description": "site de sistema de RPG cyberpunk",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriel-ggpk/SiteRPG.git"
+  },
+  "keywords": [
+    "RPG",
+    "cyberpunk"
+  ],
+  "author": "Gabriel Henrique Cavalcanti Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriel-ggpk/SiteRPG/issues"
+  },
+  "homepage": "https://github.com/gabriel-ggpk/SiteRPG#readme"
+}
