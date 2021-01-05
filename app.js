@@ -3,7 +3,7 @@ const app = express()
 
 
 app.get("/",function(req,res){
-   res.send("tudo certo meu chapa")
+   res.render("index.html")
 })
 
 
