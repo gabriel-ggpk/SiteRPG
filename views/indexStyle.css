@@ -1,0 +1,51 @@
+body{
+    background:url("assets/siteBackground.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo h1{
+    
+    color: white;
+    text-shadow: 0.11rem 0.11rem red, -0.11rem -0.11rem aquamarine;
+    font-size: 600%;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Big Shoulders Stencil Text';
+     
+}
+.contentTableContainer{
+    
+    display: flex;
+    float: right;
+    position: sticky;
+    flex-direction: column;
+    width: 25%;
+    
+}
+.contentTableItem{
+   padding: 0.3rem;
+   border: 1px outset white;
+   margin: 0.1rem;
+   font-size: 300%;
+   font-family: 'Big Shoulders Stencil Text';
+   background-color: rgb(138, 128, 145);
+   color: rgb(58, 36, 58);
+   text-shadow: 0.03rem 0.03rem rgb(228, 228, 228);
+   
+}
+.contentTableItem:hover{
+    border: 1px inset white;
+}
+a{
+    text-decoration: none;
+}
+

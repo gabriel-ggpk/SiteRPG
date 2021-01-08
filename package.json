@@ -4,7 +4,9 @@
   "description": "site de sistema de RPG cyberpunk",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
   },
   "devDependencies": {},
   "scripts": {
