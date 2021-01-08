@@ -1,5 +1,5 @@
 body{
-    background:url("assets/siteBackground.jpg");
+    background:url("views/assets/siteBackground.jpg");
     background-repeat: repeat-y;
     background-size: cover;
 }
