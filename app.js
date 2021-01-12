@@ -3,7 +3,7 @@ const app = express()
 
 app.set('view engine', 'html');
 app.engine('html', require('ejs').renderFile);
-app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname + ''));
 
 app.get("/",function(req,res){
    res.render("index.html")
